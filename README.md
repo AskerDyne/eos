@@ -24,9 +24,7 @@ Eos employs an advanced 3-strike automated system, pre-trained on a vast array o
 
 Each server can strike a user **once**, this means any user with say 2 or 3 strikes would have been struck in 3 independent servers by an average of 3 independent users this mitigates brute-force striking. Makes brute-force striking attempts apparent in the database, so that we can un-strike a user ourselves on appeal, it also means that a user who ended up having to go through appeals (3+ strikes) must have gotten to that point through unanimous action across 3 independent servers.
 
-*Eos operates mostly passively, allowing your community to thrive without constant interference. Its intelligent algorithms work in the background, intervening only when necessary, giving your members the freedom to express themselves within the set boundaries by Eos.*
-
-All it takes is an invitation and a simple `sync` when needed (although Eos handles this on boot, it's recommended to do it manually).
+*Eos operates mostly passively, allowing your community to thrive without constant interference. Its intelligent algorithms work in the background, intervening only when necessary, giving your members the freedom to express themselves in a safe environment.*
 
 **Invite link**:
 
