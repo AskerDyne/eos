@@ -16,11 +16,11 @@ Eos revolutionises moderation by introducing a decentralized and passive reputat
 
 Empowered by a dual-designed backend database, Eos can efficiently store and process extensive data, enabling quick and precise actions while maintaining database encryption. Routine backups ensure data integrity, offering a secure foundation to protect your servers and communities.
 
-Strike commands issued will be stored in the federated database, and on a daily basis, all federated users on tag or banned (*users with over 3 strikes*) will be transferred to the un-federated database. Each server retains the autonomy to choose whether it wishes to synchronize with the federated database or the unfederated database. If they choose to sync at all. The bot can be used as nothing more than a reputation and record-checking system if they prefer. Giving each server the power to utilise the bot as they see fit.
+Strike commands issued will be stored in the federated database, and on a daily basis, all federated users on tag or banned (*users with over 3 strikes*) will be transferred to the un-federated database. Each server retains the autonomy to choose whether it wishes to synchronize with the federated database or the un-federated database. If they choose to sync at all. The bot can be used as nothing more than a reputation and record-checking system if they prefer. Giving each server the power to utilise the bot as they see fit.
 
 **Innovative 3-Strike System**:
 
-Eos employs an advanced 3-strike automated system, pre-trained on a vast array of words and phrases. It passively scans messages (*without logging them*) and deletes any content that deviates from acceptable norms and informs the user privately what message was removed and in which server, this in itself **will not strike** a user - striking is a manual action. Additionally, server administrators can issue strikes using the `strike` command, affecting the federated database. This ensures consistent action against repeat offenders, preserving the integrity of the federation of servers under Eos.
+Eos employs an advanced 3-strike automated system, pre-trained on a vast array of words and phrases. It passively scans messages (*without logging them*) deletes any content that deviates from acceptable norms and informs the user privately what message was removed and in which server, this in itself **will not strike** a user - striking is a manual action. Additionally, server administrators can issue strikes using the `strike` command, affecting the federated database. This ensures consistent action against repeat offenders, preserving the integrity of the federation of servers under Eos.
 
 Each server can strike a user **once**, this means any user with say 2 or 3 strikes would have been struck in 3 independent servers by an average of 3 independent users this mitigates brute-force striking. Makes brute-force striking attempts apparent in the database, so that we can un-strike a user ourselves on appeal, it also means that a user who ended up having to go through appeals (3+ strikes) must have gotten to that point through unanimous action across 3 independent servers.
 
@@ -46,7 +46,7 @@ For support reach out and open a ticket on [Discord](https://discord.askerdyne.c
 
 [![CC BY-NC-ND 4.0](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1) [![BY](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1) [![NC](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1) [![ND](https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
 
-[ADA-TG](https://labs.askerdyne.com/) by [AskerDyne & Co.](https://askerdyne.com) is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
+[Eos](https://labs.askerdyne.com/) by [AskerDyne & Co.](https://askerdyne.com) is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
 
 - **CC (Creative Commons)**: A type of license that allows creators to specify the permissions for others to use their work.
 
