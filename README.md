@@ -2,32 +2,35 @@
 
 # Eos
 
-**A global discord AI-powered policing bot**
+**A global Discord AI-powered reputation system and passive policing bot**
 
-Eos is not just a Discord bot; it's a global force in decentralised moderation and *policing*. With a robust backend database and a sophisticated 3-strike to-ban automated system built around our in-house research and developed neural networks, Eos operates as a mostly passive yet highly effective guardian for your Discord community!
+Eos is more than just a Discord bot; it's a global reputation system and a guardian with a subtle policing approach. With a robust dual-designed backend database and an innovative 3-strike system, Eos operates as a mostly passive yet highly effective reputation manager for your Discord community!
 
-**Decentralized Moderation**:
+**Passive Reputation Management**:
 
-Eos takes moderation to the next level with a decentralised heavy-hitting approach. As it's spread across a growing number of global communities, Eos ensures that moderation is efficient, responsive and swift as it works to create a secure environment and federation of servers where your safety is paramount.
+Eos revolutionises moderation by introducing a decentralized and passive reputation management approach. Spread across various global communities, Eos ensures that reputation management is efficient and responsive running in parallel, creating a secure environment is paramount to Eos!
 
-A strike in one server spreads across them all!
+*A strike in the federated network of servers in one server reflects in others in the federated network!*
 
-**Backend Database Power**:
+**Advanced Backend Database**:
 
-Backed by a twin-designed backend dual database Eos boasts the ability to store and process vast amounts of data; enabling quick and precise actions all while remaining encrypted. This ensures that when database sync requests come through we can service them sooner than later and with routine backups of the databases it means we've always got a point of recovery. Ready to protect your servers and communities?
+Empowered by a dual-designed backend database, Eos can efficiently store and process extensive data, enabling quick and precise actions while maintaining database encryption. Routine backups ensure data integrity, offering a secure foundation to protect your servers and communities.
 
-**Dual-approach 3-Strike to Ban Automated System**:
+Strike commands issued will be stored in the federated database, and on a daily basis, all federated users on tag or banned (*users with over 3 strikes*) will be transferred to the un-federated database. Each server retains the autonomy to choose whether it wishes to synchronize with the federated database or the unfederated database. If they choose to sync at all. The bot can be used as nothing more than a reputation and record-checking system if they prefer. Giving each server the power to utilise the bot as they see fit.
 
-Eos implements a sophisticated 3-strike to ban automated systems. Pre-trained on over 1,700 words and 3,500 phrases, Eos passively scans messages (*without logging them*) and simply deletes any messages that aren't flavourful, if you have a logging bot enabled, only then may the deleted messages get logged. This is the soft element, and the second element is the firm approach to rule enforcement. Utilising the `strike` command administrators on a server can issue a strike against a user which spreads across the global database. This system ensures that repeat offenders are dealt with consistently, maintaining the integrity of the federation of servers under Eos.
+**Innovative 3-Strike System**:
 
+Eos employs an advanced 3-strike automated system, pre-trained on a vast array of words and phrases. It passively scans messages (*without logging them*) and deletes any content that deviates from acceptable norms and informs the user privately what message was removed and in which server, this in itself **will not strike** a user - striking is a manual action. Additionally, server administrators can issue strikes using the `strike` command, affecting the federated database. This ensures consistent action against repeat offenders, preserving the integrity of the federation of servers under Eos.
 
-As you can tell Eos operates mostly passively, allowing your community to flourish without constant interference. Its intelligent algorithms work in the background, stepping in only when necessary, giving your members the freedom to express themselves within the boundaries Eos has set.
+Each server can strike a user **once**, this means any user with say 2 or 3 strikes would have been struck in 3 independent servers by an average of 3 independent users this mitigates brute-force striking. Makes brute-force striking attempts apparent in the database, so that we can un-strike a user ourselves on appeal, it also means that a user who ended up having to go through appeals (3+ strikes) must have gotten to that point through unanimous action across 3 independent servers.
 
-All you need to do is invite it and `sync` when you feel like it! (*though Eos does this itself on-boot it's suggested you do it yourself too*)
+*Eos operates mostly passively, allowing your community to thrive without constant interference. Its intelligent algorithms work in the background, intervening only when necessary, giving your members the freedom to express themselves within the set boundaries by Eos.*
+
+All it takes is an invitation and a simple `sync` when needed (although Eos handles this on boot, it's recommended to do it manually).
 
 **Invite link**:
 
-https://eos.askerdyne.cloud
+[https://eos.askerdyne.cloud](https://eos.askerdyne.cloud)
 
 ## Contributing
 
